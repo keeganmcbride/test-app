@@ -1,0 +1,10 @@
+{
+  "language": "English",
+  "navbarDescription": "Statistics about COVID-19 virus spread in Estonia",
+  "navbarUpdated": "Updated",
+  "confirmedCases": "Confirmed cases",
+  "activeCases": "Active cases",
+  "deceased": "Deceased",
+  "recovered": "Recovered",
+  "testsAdministered": "Tests administered"
+}

@@ -1,0 +1,10 @@
+{
+  "language": "Eesti",
+  "navbarDescription": "Statistika COVID-19 viiruse leviku kohta Eestis",
+  "navbarUpdated": "Uuendatud",
+  "confirmedCases": "Kinnitatud haigusjuhte",
+  "activeCases": "Aktiivseid haigusjuhte",
+  "deceased": "Hukkunud",
+  "recovered": "Tervenenud",
+  "testsAdministered": "Tehtud teste"
+}
