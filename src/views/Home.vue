@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import SampleChart from "../components/SampleChart";
 import Statsbar from "../components/Statsbar";
+import SampleChart from "../components/SampleChart";
 
 export default {
   name: "Home",

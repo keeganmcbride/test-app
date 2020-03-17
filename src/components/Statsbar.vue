@@ -1,30 +1,32 @@
 <template>
-  <div class="statsbar-container">
-    <div class="statsbar-item">
-      <div>Kinnitatud haigusjuhte</div>
-      <b>205</b>
-    </div>
+  <b-container>
+    <b-row>
+      <b-col md>
+        <h5>Kinnitatud haigusjuhte</h5>
+        <h1>205</h1>
+      </b-col>
 
-    <div class="statsbar-item">
-      <div>Aktiivseid haigusjuhte</div>
-      <b>204</b>
-    </div>
+      <b-col md>
+        <h5>Aktiivseid haigusjuhte</h5>
+        <h1>204</h1>
+      </b-col>
 
-    <div class="statsbar-item">
-      <div>Hukkunud</div>
-      <b>0</b>
-    </div>
+      <b-col md>
+        <h5>Hukkunud</h5>
+        <h1>0</h1>
+      </b-col>
 
-    <div class="statsbar-item">
-      <div>Tervenenud</div>
-      <b>1</b>
-    </div>
+      <b-col md>
+        <h5>Tervenenud</h5>
+        <h1>1</h1>
+      </b-col>
 
-    <div class="statsbar-item">
-      <div>Tehtud teste</div>
-      <b>1387</b>
-    </div>
-  </div>
+      <b-col md>
+        <h5>Tehtud teste</h5>
+        <h1>1387</h1>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
@@ -33,15 +35,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.statsbar-container {
-  display: flex;
-  justify-content: space-around;
-  margin: 2em 0em;
-}
-
-.statsbar-item {
-  display: flex;
-  flex-direction: column;
-}
-</style>
+<style lang="scss" scoped></style>

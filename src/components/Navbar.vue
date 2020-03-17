@@ -16,10 +16,12 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-navbar-brand>
-            Statistika COVID-19 viiruse leviku kohta Eestis
+            <small>Statistika COVID-19 viiruse leviku kohta Eestis</small>
           </b-navbar-brand>
           <b-navbar-brand id="navbar-interpunct">·</b-navbar-brand>
-          <b-navbar-brand>Uuendatud: {{ lastUpdated }}</b-navbar-brand>
+          <b-navbar-brand>
+            <small>Uuendatud: {{ lastUpdated }}</small>
+          </b-navbar-brand>
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
